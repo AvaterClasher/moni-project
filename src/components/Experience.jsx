@@ -87,8 +87,8 @@ export const Experience = () => {
       )
     );
 
-    airplane.current.quaternion.slerp(targetAirplaneQuaternion, delta * 3.5);
-    cameraGroup.current.quaternion.slerp(targetCameraQuaternion, delta * 2);
+    airplane.current.quaternion.slerp(targetAirplaneQuaternion, delta * 1);
+    cameraGroup.current.quaternion.slerp(targetCameraQuaternion, delta * 1);
 
     cameraGroup.current.position.lerp(curPoint, delta * 24);
   });
