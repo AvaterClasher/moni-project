@@ -49,7 +49,7 @@ export const Experience = () => {
           curvePoints[1].y,
           curvePoints[1].z
         ),
-        subtitle: `Welcome to Wawatmos,
+        subtitle: `Welcome to MONIPLane,
 Have a seat and enjoy the ride!`,
       },
       {
@@ -61,7 +61,7 @@ Have a seat and enjoy the ride!`,
         ),
         title: "Services",
         subtitle: `Do you want a drink?
-We have a wide range of beverages!`,
+We have a wide range of beverages (Mainly Sting)!`,
       },
       {
         cameraRailDist: -1,
@@ -71,7 +71,7 @@ We have a wide range of beverages!`,
           curvePoints[3].z
         ),
         title: "Fear of flying?",
-        subtitle: `Our flight attendants will help you have a great journey`,
+        subtitle: `Dont Worry our airplane takes sharp turns so u can forget about your fear`,
       },
       {
         cameraRailDist: 1.5,
@@ -81,7 +81,7 @@ We have a wide range of beverages!`,
           curvePoints[4].z - 12
         ),
         title: "Movies",
-        subtitle: `We provide a large selection of medias, we highly recommend you Porco Rosso during the flight`,
+        subtitle: `We provide a large selection of medias, we highly recommend you some Dr.Stone during the flight`,
       },
     ];
   }, []);
